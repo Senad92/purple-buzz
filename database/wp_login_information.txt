@@ -1,0 +1,3 @@
+http://localhost/purple-buzz/wp-admin
+username: wp_admin
+password: WT(d1!(tD12Hx5^gzv

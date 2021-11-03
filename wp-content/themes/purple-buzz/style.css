@@ -1,0 +1,73 @@
+/*!
+Theme Name: Purple Buzz
+Theme URI: http://underscores.me/
+Author: Senad Lemes
+Author URI: http://underscores.me/
+Description: Wordpress theme
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: purple-buzz
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Purple Buzz is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+*/
+
+/* Additional CSS */
+
+.pb_remove_li_style li {
+  all: unset;
+}
+.pb_remove_li_style li a {
+  background-color: transparent !important;
+  border-radius: unset !important;
+}
+.footer_arrow_icons ul {
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 300;
+  color: #f6f9fe !important;
+  padding-left: 0;
+  list-style: none;
+}
+.footer_arrow_icons ul li {
+  padding-bottom: 0.5rem !important;
+  display: block;
+}
+.footer_arrow_icons ul li::before {
+  content: "\ec8f";
+  font-family: "boxicons" !important;
+  line-height: 0.8em;
+  width: 1.2857142857em;
+  height: 0.8em;
+  margin-top: -0.2em !important;
+  vertical-align: middle;
+  font-size: 1rem !important;
+  color: #f6f9fe !important;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  display: inline-block;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.footer_arrow_icons ul li a {
+  color: #f6f9fe !important;
+  text-decoration: none;
+}
+.footer_arrow_icons ul li a:hover {
+  color: #bfbfbf !important;
+  transition-duration: 0.15s;
+}
+.btn-height {
+  height: 48px;
+}
